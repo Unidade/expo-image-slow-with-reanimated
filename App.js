@@ -5,12 +5,12 @@ import { Card } from "./card"
 import { CardWithExpo } from "./card-with-expo"
 
 const CARDS = [
-  { source: require("./assets/colors/1.png") },
-  { source: require("./assets/colors/2.png") },
-  { source: require("./assets/colors/3.png") },
-  { source: require("./assets/colors/4.png") },
-  { source: require("./assets/colors/5.png") },
-  { source: require("./assets/colors/15.png") },
+  { source: require("./assets/colors/1.jpg") },
+  { source: require("./assets/colors/2.jpg") },
+  { source: require("./assets/colors/3.jpg") },
+  { source: require("./assets/colors/4.jpg") },
+  { source: require("./assets/colors/5.jpg") },
+  { source: require("./assets/colors/6.png") },
   { source: require("./assets/colors/16.png") },
   { source: require("./assets/colors/17.png") },
 ]

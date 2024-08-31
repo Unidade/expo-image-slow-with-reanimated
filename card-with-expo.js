@@ -15,8 +15,6 @@ import Animated, {
 const { width } = Dimensions.get("window")
 const duration = 1200
 
-const AnimatedImage = Animated.createAnimatedComponent(Image)
-
 export function CardWithExpo({ source, index, runAnimation }) {
   const offsetX = useSharedValue(0)
 
@@ -49,7 +47,12 @@ export function CardWithExpo({ source, index, runAnimation }) {
 
   return (
     <Animated.View style={[styles.card, animatedStyles]}>
-      <AnimatedImage source={source} style={styles.image} />
+      <Image
+        contentFit="cover"
+        allowDownscaling
+        source={source}
+        style={styles.image}
+      />
     </Animated.View>
   )
 }

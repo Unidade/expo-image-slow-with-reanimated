@@ -46,7 +46,7 @@ export function Card({ source, index, runAnimation }) {
 
   return (
     <Animated.View style={[styles.card, animatedStyles]}>
-      <Image source={source} style={styles.image} />
+      <Image resizeMode="cover" source={source} style={styles.image} />
     </Animated.View>
   )
 }
