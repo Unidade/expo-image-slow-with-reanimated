@@ -3,7 +3,6 @@ import { Button, StyleSheet, Switch, Text, View } from "react-native"
 import { GestureHandlerRootView } from "react-native-gesture-handler"
 import { Card } from "./card"
 import { CardWithExpo } from "./card-with-expo"
-import "expo-dev-client"
 
 const CARDS = [
   { source: require("./assets/colors/1.png") },
